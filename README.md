@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/nunomaduro/laravel-pot/main/art/example.png" alt="Pot example" height="300">
+    <img src="https://raw.githubusercontent.com/nunomaduro/laravel-pot/main/docs/example.png" alt="Pot example" height="300">
 </p>
 
 <p align="center">

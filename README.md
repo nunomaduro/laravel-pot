@@ -11,7 +11,7 @@
 
 ## About Laravel Pot
 
-Laravel Pot was created by, and is maintained by [Nuno Maduro](https://github.com/nunomaduro), and is a set of commands to inspect Laravel's container
+Laravel Pot was created by, and is maintained by [Nuno Maduro](https://github.com/nunomaduro), and is a set of commands to inspect Laravel Application's container.
 
 ## Installation & Usage
 

@@ -10,7 +10,7 @@ use Orchestra\Testbench\TestCase as BaseTestCase;
 /**
  * @internal
  */
-final class TestCase extends BaseTestCase
+class TestCase extends BaseTestCase
 {
     protected function getPackageProviders($app)
     {

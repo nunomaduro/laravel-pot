@@ -30,12 +30,14 @@ final class PotSingletonCommand extends PotCommand
      */
     public function handle(): int
     {
-        $instances = collect($this->container->getBindings())
+        $bindings = collect($this->container->getBindings())
             ->filter(fn (array $binding) => $binding['shared']);
 
-        $this->section('Instances');
+        $this->section('Instances (Singletons)');
 
-        foreach ($instances as $abstract => $instance) {
+        foreach ($bindings as $abstract => $_) {
+            $instance = $this->tryToResolve($abstract);
+
             $this->item($abstract, $instance);
         }
 

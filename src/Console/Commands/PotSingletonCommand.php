@@ -36,10 +36,6 @@ final class PotSingletonCommand extends PotCommand
         $this->section('Instances');
 
         foreach ($instances as $abstract => $instance) {
-            if (isset($bindings[$abstract])) {
-                continue;
-            }
-
             $this->item($abstract, $instance);
         }
 

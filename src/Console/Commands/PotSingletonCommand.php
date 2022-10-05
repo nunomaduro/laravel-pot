@@ -9,37 +9,27 @@ use Illuminate\Console\Command;
 /**
  * @internal
  */
-final class PotListCommand extends PotCommand
+final class PotSingletonCommand extends PotCommand
 {
     /**
      * The console command name.
      *
      * @var string
      */
-    protected $signature = 'pot:list';
+    protected $signature = 'pot:singletons';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Lists the container bindings / instances';
+    protected $description = 'Lists the container singeltons';
 
     /**
      * Execute the console command.
      */
     public function handle(): int
     {
-        $bindings = $this->container->getBindings();
-
-        $this->section('Bindings');
-
-        foreach ($bindings as $abstract => $_) {
-            $instance = $this->tryToResolve($abstract);
-
-            $this->item($abstract, $instance);
-        }
-
         $instances = (fn () => $this->instances)->call($this->container);
 
         $this->section('Instances');

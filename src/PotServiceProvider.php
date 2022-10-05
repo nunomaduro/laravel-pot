@@ -22,6 +22,7 @@ final class PotServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
             $this->commands([
                 Commands\PotListCommand::class,
+                Commands\PotSingletonCommand::class,
             ]);
         }
     }

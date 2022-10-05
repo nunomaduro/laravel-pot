@@ -23,10 +23,20 @@ Create your package using [Composer](https://getcomposer.org):
 composer require nunomaduro/laravel-pot
 ```
 
+### List all Bindings and instances
+
 How to use:
 
 ```bash
 php artisan pot:list
+```
+
+### List all Singletons
+
+How to use:
+
+```bash
+php artisan pot:singletons
 ```
 
 ## Contributing

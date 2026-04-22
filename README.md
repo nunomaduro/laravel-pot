@@ -7,6 +7,7 @@
     <a href="https://packagist.org/packages/nunomaduro/laravel-pot"><img alt="Total Downloads" src="https://img.shields.io/packagist/dt/nunomaduro/laravel-pot"></a>
     <a href="https://packagist.org/packages/nunomaduro/laravel-pot"><img alt="Latest Version" src="https://img.shields.io/packagist/v/nunomaduro/laravel-pot"></a>
     <a href="https://packagist.org/packages/nunomaduro/laravel-pot"><img alt="License" src="https://img.shields.io/packagist/l/nunomaduro/laravel-pot"></a>
+    <a href="https://youtube.com/@nunomaduro?sub_confirmation=1"><img alt="YouTube Channel Subscribers" src="https://img.shields.io/youtube/channel/subscribers/UCO_hYZF2gb_CyG5sA7ArlGg?style=flat&label=youtube&color=brightgreen"></a>
 </p>
 
 ## About Laravel Pot
